@@ -1,0 +1,23 @@
+# Core PySpark package
+pyspark==3.3.2
+
+# Optional: Helps locate your Spark installation (handy in Jupyter notebooks)
+findspark==2.0.1
+
+# Data manipulation libraries (commonly used with Spark DataFrames)
+pandas==1.5.3
+numpy==1.26.4
+
+# Optional: For faster serialization with Spark (if needed)
+pyarrow==15.0.0
+
+# Optional: For machine learning and visualization tasks
+scikit-learn==1.2.2
+matplotlib==3.6.3
+
+# Jupyter Notebook environment
+notebook>=6.5.2
+ipykernel>=6.21.2
+
+# Optionally, if you prefer the JupyterLab interface:
+# jupyterlab>=3.5.2
